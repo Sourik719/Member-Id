@@ -1,0 +1,54 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    color:aliceblue;
+}
+nav{
+    color:white;
+    background-color: black;
+    align-items: center;
+    display:flex;
+    text-align: center;
+}
+nav>img{
+    height: 30px;
+    margin-right: 7px;
+}
+nav>h3{
+    margin-right:auto;
+    color:aqua;
+}
+nav>h4{
+    margin-right:10px;
+}
+.header{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    background-image:url(./logo.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+.header>ol{
+    list-style:none;
+}
+.header>ol>li{
+    margin-bottom: 7px;
+}
+.footer{
+    display:flex;
+}
+.socials{
+    display:flex;
+    align-items: right;
+    list-style: none;
+}
+.socials>li{
+    padding:10px;
+    padding-top: 0;
+    height: 300 pt;
+}
+.footertext{
+    margin-right:auto;
+}
